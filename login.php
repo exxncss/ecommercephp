@@ -65,7 +65,7 @@ if(isset($_SESSION["username"])){
               <label for="right-label" class="right inline">Email</label>
             </div>
             <div class="small-8 columns">
-              <input type="email" id="right-label" placeholder="kelompok 2" name="username">
+              <input type="email" id="right-label" placeholder="username@kelompok2" name="username">
             </div>
           </div>
           <div class="row">
@@ -73,7 +73,7 @@ if(isset($_SESSION["username"])){
               <label for="right-label" class="right inline">Password</label>
             </div>
             <div class="small-8 columns">
-              <input type="password" id="right-label" name="pwd">
+              <input type="password" id="right-label" placeholder="**********" name="pwd">
             </div>
           </div>
 

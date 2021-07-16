@@ -60,31 +60,31 @@ if (isset($_SESSION["username"])) {header ("location:index.php");}
 
           <div class="row">
             <div class="small-4 columns">
-              <label for="right-label" class="right inline">First Name</label>
+              <label for="right-label" class="right inline">Nama Depan</label>
             </div>
             <div class="small-8 columns">
-              <input type="text" id="right-label" placeholder="Muhamad" name="fname">
+              <input type="text" id="right-label" placeholder="Wajib diisi" name="fname">
             </div>
           </div>
           <div class="row">
             <div class="small-4 columns">
-              <label for="right-label" class="right inline">Last Name</label>
+              <label for="right-label" class="right inline">Nama Belakang</label>
             </div>
             <div class="small-8 columns">
-              <input type="text" id="right-label" placeholder="Ikhsan" name="lname">
+              <input type="text" id="right-label" placeholder="Wajib diisi" name="lname">
             </div>
           </div>
           <div class="row">
             <div class="small-4 columns">
-              <label for="right-label" class="right inline">Address</label>
+              <label for="right-label" class="right inline">Alamat</label>
             </div>
             <div class="small-8 columns">
-              <input type="text" id="right-label" placeholder="shy shy shy -sana" name="address">
+              <input type="text" id="right-label" placeholder="Wajib diisi" name="address">
             </div>
           </div>
           <div class="row">
             <div class="small-4 columns">
-              <label for="right-label" class="right inline">City</label>
+              <label for="right-label" class="right inline">Kota</label>
             </div>
             <div class="small-8 columns">
               <input type="text" id="right-label" placeholder="Jakarta" name="city">
@@ -92,7 +92,7 @@ if (isset($_SESSION["username"])) {header ("location:index.php");}
           </div>
           <div class="row">
             <div class="small-4 columns">
-              <label for="right-label" class="right inline">Pin Code</label>
+              <label for="right-label" class="right inline">Kode POS</label>
             </div>
             <div class="small-8 columns">
               <input type="number" id="right-label" placeholder="14045" name="pin">
@@ -100,10 +100,10 @@ if (isset($_SESSION["username"])) {header ("location:index.php");}
           </div>
           <div class="row">
             <div class="small-4 columns">
-              <label for="right-label" class="right inline">E-Mail</label>
+              <label for="right-label" class="right inline">e-Mail</label>
             </div>
             <div class="small-8 columns">
-              <input type="email" id="right-label" placeholder="exxncss@gmail.com" name="email">
+              <input type="email" id="right-label" placeholder="kelompok2@ecommerce.com" name="email">
             </div>
           </div>
           <div class="row">
@@ -111,7 +111,7 @@ if (isset($_SESSION["username"])) {header ("location:index.php");}
               <label for="right-label" class="right inline">Password</label>
             </div>
             <div class="small-8 columns">
-              <input type="password" id="right-label" name="pwd">
+              <input type="password" id="right-label" placeholder="*****" name="pwd">
             </div>
           </div>
           <div class="row">

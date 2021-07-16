@@ -53,7 +53,7 @@ if(session_id() == '' || !isset($_SESSION)){session_start();}
     <div class="row" style="margin-top:30px;">
       <div class="small-12">
 
-        <p>Wanna get in touch?. Please visit our repository at <a href="https://github.com/exxncss/">exxncss's Github</a></p>
+        <p>Wanna get in touch? Please visit our repository at <a href="https://github.com/exxncss/">exxncss's Github</a></p>
 
         <footer>
            <p style="text-align:center; font-size:0.8em;">&copy; Weebspedia 2021. All Rights Reserved.</p>

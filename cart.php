@@ -53,7 +53,7 @@ include 'config.php';
       <div class="large-12">
         <?php
 
-          echo '<p><h3>Your Shopping Cart</h3></p>';
+          echo '<p><h3>Keranjang</h3></p>';
 
           if(isset($_SESSION['cart'])) {
 
@@ -111,7 +111,7 @@ include 'config.php';
         }
 
         else {
-          echo "You have no items in your shopping cart.";
+          echo "Keranjang kamu masih kosong. Yuk, belanja";
         }
 
 
@@ -131,7 +131,7 @@ include 'config.php';
 
 
         <footer style="margin-top:10px;">
-           <p style="text-align:center; font-size:0.8em;clear:both;">&copy; BOLT Sports Shop. All Rights Reserved.</p>
+           <p style="text-align:center; font-size:0.8em;clear:both;">&copy; Weebspedia. All Rights Reserved.</p>
         </footer>
 
       </div>

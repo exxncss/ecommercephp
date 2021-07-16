@@ -54,8 +54,7 @@ if(session_id() == '' || !isset($_SESSION)){session_start();}
 
     <div class="row" style="margin-top:30px;">
       <div class="small-12">
-        <p>Weebspedia adalah sebuah contoh website e-commerce C2C yang dibuat oleh kelompok 2 E-commerce sebagai materi presentasi vicon ke 2 e-Commerce. 
-        <a href="http://www.techbarrack.com" target="_blank" rel="noopener noreferrer" title="Tech Barrack Solutions">Tech Barrack Solutions</a>.</p>
+        <p>Weebspedia adalah sebuah contoh website e-commerce C2C yang dibuat oleh kelompok 2 sebagai materi presentasi vicon ke 2 mata kuliah e-Commerce. 
         <p>Kelompok 2: <br>Muhamad Ikhsan - 171011402114.
           <br>Igusta Willyarto - 171011402577
           <br>Visca Reza Steven Cornel Pardede - 171011401084
